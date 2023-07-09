@@ -1,0 +1,25 @@
+/* shaered style sheet  */
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: rgba(233, 117, 8, 0.918);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+}
+nav li a{
+    margin-right: 50px;
+    text-decoration: none;
+}
