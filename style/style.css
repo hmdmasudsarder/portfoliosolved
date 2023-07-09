@@ -4,11 +4,21 @@
     font-family: 'Open Sans', sans-serif;
 }
 .text-primary{
-    color: rgba(233, 117, 8, 0.918);
+    color: #FD6E0A;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 }
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .nav-title{
     color: #181818;
@@ -18,8 +28,11 @@ nav{
 nav > ul{
     display: flex;
     list-style: none;
+    align-items: center;
 }
 nav li a{
     margin-right: 50px;
     text-decoration: none;
+    color: #474747;
+    
 }
